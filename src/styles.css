@@ -1,8 +1,35 @@
-h1{
-    font-family: "Playfair Display", serif;
-    font-size: 28px;
+.names{
+    font-family: "Oswald",sans-serif;
+    font-size: 36px;
 }
 
-p{
+.area{
     font-family: "Poppins", sans-serif;
+    font-size:22px;
+    line-height: 2;
+    color: #3c7bd5;
+}
+
+.hero{
+    margin-top: 55px;
+}
+.download{
+    border:1px solid #1a98e8;
+    background-color: #1a98e8;
+    color:white;
+    border-radius: 15px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+
+.talk{
+    border: 2px solid #1a98e8;
+    background-color: white;
+    color:black rgba(0, 0, 0, 0.3);
+    border-radius:15px;
+    margin-left: 20px;
+    padding: 5px 40px 5px;
+    font-size: 14px;
+
 }
