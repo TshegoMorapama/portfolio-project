@@ -3,14 +3,14 @@
     font-size: 36px;
 }
 
-.area{
+#area{
     font-family: "Poppins", sans-serif;
     font-size:22px;
     line-height: 2;
     color: #3c7bd5;
 }
 
-.hero{
+#heading{
     margin-top: 55px;
 }
 .download{
@@ -30,6 +30,48 @@
     border-radius:15px;
     margin-left: 20px;
     padding: 5px 40px 5px;
-    font-size: 14px;
+    font-size: 14px;}
 
+.photo{
+    margin-top: 50px;
+    border: 10px solid #7cdaff ;
+    border-radius:50%;
+}
+.languages{
+    display: flex;
+    margin-left: 250px;
+    margin-top: -120px;
+}
+.progress-bar{
+    padding:4px;
+}
+.heading-1{
+    margin-top: 100px;
+    text-align: center;
+}
+.skills{
+    margin-top: 20px;
+}
+
+#tshego{
+    margin-top:50px;
+}
+h2{
+    margin-top: 50px;
+}
+#about-me{
+    margin-top: 120px;}
+
+.projects-header{
+    margin-top: 50px;;
+}
+#projects-images{
+    margin-top: 40px;
+}
+.contacts{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
 }
