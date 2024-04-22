@@ -50,16 +50,17 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
+  
   <body>
     <div class="container">
       <div class="row">
         <div class="col-sm-7" id="hero">
           <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <a class="navbar-brand" href="#"
-              >Portfoli<span class="material-symbols-outlined mt-">
-                fiber_manual_record
-              </span>
+              >Portfoli⭕
             </a>
             <button
               class="navbar-toggler"
@@ -213,13 +214,16 @@
     <div class="container" id="projecrs-images">
         <div class="row" >
   <div class="col-sm-6">
-    <img src="images/First-Project.jpg" width="460" height="390"> </div>
+    <img src="images/First-Project.jpg" width="460" height="390">
+    </div>
 
     <div class="col-sm-6">
-        <img src="images/weather-app.png" width="350">
-       <div>
+        <img src="images/weather-app.png" width="350" class="img-fluid">
+        <div>
+       <button class="rounded">
         <a href="https://boso-app.netlify.app/"> Launch App </a>
-        </div>
+       </button>
+       </div>
     </div>
 
     </div>
@@ -229,8 +233,22 @@
     <div class="contacts">
       Contact Me
     </div>
-    <div>
+    <div class="contact-form">Contact Form </div>
+    <form>
+     <input type="text" value="Enter name" class="form-name">
+      <input type="text" value="Enter number" class="form-number">
+      <div>
+      <input type="text" value="Enter email" class="form-email">
+      </div>
+      <div>
+        <input type="text" value="Enter message" class="form-message" style="text-align:left;">
+      </div>
+      <div>
+        <input type="submit" value="Send" class="form-send">
+      </div>
+    </form>
+    <footer>
      <a href="tshegomorapama@fmail.com"> tshegomorapama@gmail.com</a>
-    </div>
+    </footer>
   </body>
 </html>
