@@ -37,11 +37,12 @@
     padding: 5px 40px 5px;
     font-size: 14px;}
 #icon
-{margin-left:350px;}
+{margin-left:350px;
+margin-right: 15px;}
 
 #logo{
     margin-left: 390px;
-    margin-top: -56px;
+    
 }
 #icon-container {
     display: flex;
