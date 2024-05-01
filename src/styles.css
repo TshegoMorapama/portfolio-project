@@ -19,13 +19,12 @@
 #heading{
     margin-top: 55px;
 }
-.download{
+.my-projects{
     border:1px solid var(--border-color);
     background-color: var(--border-color);
     color:white;
     border-radius: 15px;
-    padding-right: 3px;
-    padding-bottom: 3px;
+    padding: 5px 40px 5px;
     font-size: 14px;
 }
 
@@ -44,14 +43,18 @@
     margin-left: 390px;
     margin-top: -56px;
 }
+#icon-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .photo {
     width: 260px;
     height: 240px;
     margin-top: 120px;
     border: 15px solid #b3d2f2;
-    border-radius: 50%;
+    border-radius: 50%;}
 
-}
 .languages{
     display: flex;
     margin-left: 250px;
@@ -61,6 +64,9 @@
 .progress-bar{
     padding:4px;
 }
+.progress{
+    margin-bottom: 10px;
+}
 .heading-1{
     margin-top: 100px;
     text-align: center;
@@ -68,10 +74,26 @@
 .skills{
     margin-top: 20px;
 }
+#project-picture{
+    width:500px;
+    height:500px;
+    border:30px solid #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;}
 
-#tshego{
-    margin-top:50px;
+.work-h1{
+        text-align: center;
 }
+#boso-lessons{
+    border: 20px solid #afcece;
+    margin-top:30px;
+    font-size:18px;
+    line-height: 1.7;}
+.work-heading{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
 h2{
     margin-top: 50px;
 }
@@ -94,6 +116,19 @@ h2{
 .contact-form{
     margin-bottom:20px;
     font-size: 26px;
+    font-weight: bold;
+}
+.contact-h2{
+    font-size: 36px;
+    margin-bottom:30px;
+    margin-top: 100px;}
+
+#contact-side{
+    margin-top:100px;
+}
+
+#sidebar{
+    margin-top: 100px;
 }
 .form-name{
     border:1px solid grey;
@@ -124,17 +159,105 @@ h2{
     margin-top: 10px;
 
 }
+.progress-bar{
+    padding-bottom: 20px;
+}
 footer{
     margin-top: 60px;
 }
 @media(max-width:576px) {
     h1{font-size: small;
     text-align: center;}
-}
 h2{font-size: small;
   }
 
 p{font-size: smaller;
   text-align: center;
 }
+.work-h1{
+    text-align: center;
+    font-size: medium;
+}
+.talk{
+    display:block;
+    margin:0 auto}
+.footer-container{
+    display:none;}
+#sidebar{
+    display:none;
+}
+#contact-side{
+    display:none;
+}
+.work-heading{
+    font-size:18px;
+    text-align: center;
+}
+.contact-h2{
+    font-size:21px;
+}
+.quote{
+    display:none;
+}
+}
 
+#fp-picture{
+    border:3px solid #1a98e8; }
+
+.contacts-container{
+    font-size: 15px;} 
+.contact-body{
+    margin-left:10px;
+}
+
+.nav-link{
+    color:black;
+    transition: all 100ms ease-in-out;
+}
+.nav-link:hover{
+    color: #3c7bd5;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;}
+
+.contact-icon{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+}
+.footer-head{
+    margin-left:60px;
+
+}
+.footer-container{
+    margin-left: 150px;
+    border:1px solid #F9F7FE;
+    background-color: #F9F7FE;
+    padding: 30px 50px 30px 50px;
+    margin-bottom: 25px;
+    margin-top: 200px;
+    border-radius: 5px;
+    max-width: 70%;
+}
+.footer-name{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.quote{
+    margin-left: 300px;
+}
