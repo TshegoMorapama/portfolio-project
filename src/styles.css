@@ -181,8 +181,12 @@ p{font-size: smaller;
 .talk{
     display:block;
     margin:0 auto}
+
 .footer-container{
-    display:none;}
+    display:block;
+    margin:0 auto;
+    margin-top: 15px;}
+
 #sidebar{
     display:none;
 }
@@ -199,6 +203,11 @@ p{font-size: smaller;
 .quote{
     display:none;
 }
+.my-projects{
+    display: block;
+    margin:0 auto;
+    margin-bottom: 5px;
+}
 }
 
 #fp-picture{
@@ -209,30 +218,6 @@ p{font-size: smaller;
 .contact-body{
     margin-left:10px;
 }
-
-.nav-link{
-    color:black;
-    transition: all 100ms ease-in-out;
-}
-.nav-link:hover{
-    color: #3c7bd5;
-    
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    float: right;
-}
-
-nav li a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;}
 
 .contact-icon{
     display:flex;
