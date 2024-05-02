@@ -56,7 +56,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   
-  <body>
+  <body class="portfolio-body">
     <div class="container">
       <div class="row">
         <div class="col-sm-7" id="hero">
@@ -93,22 +93,23 @@
               </ul>
             </div>
           </nav>
-
+          
           <div class="heading">
             <div class="names">Ngoako Tshegofatso Morapama</div>
-
             <div class="text-muted" id="area">
               Front-end developer based in South Africa
             </div>
-            <p>I am a dedicated front-end developer, with a passion for blending design with functionality. I am proficient in HTML, CSS and javascript. Aswell as bootstrap and user-friendly responsive designs.I am committed to creating impactful solutions that resonate with users.</p>
+            <p class="intro-paragraph">I am a dedicated front-end developer, with a passion for blending design with functionality. I am proficient in HTML, CSS and javascript. Aswell as bootstrap and user-friendly responsive designs.I am committed to creating impactful solutions that resonate with users.</p>
             <button class="my-projects">
                My projects
             </button>
             <button class="talk">Let's talk</button>
           </div>
-        </div>
+          </div>
+        
+        
 
-        <div class="col-sm-5" style="height: 100%">
+        <div class="col-sm-5" style="height: 100vh" id="side-info">
           <div class="myself bg-info" style="height: 100%">
             <a href="https://github.com/TshegoMorapama" target="_blank">
               <i class="fa fa-github fa-xl" aria-hidden="true" id="icon" title="Tshego's github"> </i>
@@ -175,6 +176,7 @@
 
 <h1 style="margin-top: 90px; margin-bottom: 30px;" class="work-h1">A look at some of my work so far!</h1>
 
+<div class="wrap">
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
@@ -185,7 +187,7 @@
       <h4 class="work-heading">
         Music Lessons Quotation
       </h4>
-      <p>
+      <p class="work-paragraph">
         As a beginner in front-end developement, I gained some knowledge in HTML, CSS and Javascript. This was achieved
         in the 3-week SheCodes basics workshop. I then used my newly acquired skills, along with my new skills in VSCode
         to build this page. A music lesson page, that uses javascript to allow users to get a quotation for the lessons.
@@ -203,7 +205,7 @@
       <h5 class="work-heading">
         Boso Weather-App
       </h5>
-      <p>
+      <p class="work-paragraph">
         I built this Vanilla Javascript weather-app, during the SheCodes plus workshop. It is an advanced 8-week
         Javascript workshop. In addition to my previously attained skills, I also became skilled in Bootstrap, APIs,
         real-life development workflow, advanced javascript, as well as publishing on Github and hosting on Netlify. I
@@ -223,7 +225,9 @@
   </div>
 </div>
 
+</div>
 
+    <div class="contact-wrap">
     <div class="container">
       <div class="row">
         <div class="col-sm-7">
@@ -231,7 +235,7 @@
           <div class="contact-form">Contact Form </div>
           <form>
             <input type="text" value="Enter name" class="form-name">
-            <input type="text" value="Enter number" class="form-number">
+            <input type="text" value="Enter number" class="form-number" >
             <div>
               <input type="text" value="Enter email" class="form-email" required>
             </div>
@@ -242,6 +246,7 @@
               <input type="submit" value="Send" class="form-send" required> <a href="mailto:tshegomorapama@gmail.com"></a>
             </div>
           </form>
+          
     
           <h3 style="margin-top:25px;margin-bottom:20px;">Alternatively contact me on:</h3>
     
@@ -266,6 +271,7 @@
             </div>
           </div>
         </div>
+        
     
         <div class="col-sm-5" style="height:100vh">
           <div class="myself bg-info" style="height:100%" id="sidebar">
